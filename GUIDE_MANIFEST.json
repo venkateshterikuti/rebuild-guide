@@ -1,0 +1,431 @@
+{
+  "guide_format": 1,
+  "product_version": "0.3.0",
+  "content": "Reference-only instructions; input material supplied separately",
+  "files": [
+    {
+      "path": "ACCEPTANCE.md",
+      "sha256": "5ec69eb287108f5b1f205352a76778e2e32c21a4b6098568960aafd87a7d9ad2"
+    },
+    {
+      "path": "BASELINE_FILES.json",
+      "sha256": "26062c5a75422c79dca31fa22c647c9d7b13c0a882f7b69eb851048322258080"
+    },
+    {
+      "path": "BUILD_ORDER.md",
+      "sha256": "be3abefe5c7401953b73eeb2fbd819c7e3351bf35f457981e53c579292e6bb68"
+    },
+    {
+      "path": "CLIENT_READINESS_AND_DELIVERY.md",
+      "sha256": "178d091c18d589370a68f8f9b51d52b31882fa09b583fe3abd13409ed64a210a"
+    },
+    {
+      "path": "FILE_INDEX.md",
+      "sha256": "4b1300fe625c6013bbd0f8c7a37e236e02ef99b27527d28df5202d4e28f9740a"
+    },
+    {
+      "path": "GENERATED_OUTPUTS.md",
+      "sha256": "bd1e5210bdaa4d4b857577259c84eca0371da9b2321e11830ae9b4341fd40020"
+    },
+    {
+      "path": "INPUT_REFERENCES.md",
+      "sha256": "4fc38fbdb824d7c9a416b9cfe6a72fb59d37429744f0241f92d0370ef0ffe5e7"
+    },
+    {
+      "path": "INTERFACES.md",
+      "sha256": "b0af59ee805690de65eda45fe517cb9e94b4b1297ab009d24ea07dc72cd17692"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "sha256": "e8652b6f1235bb56e5ae3225a61ab9cc8ce692b473e29d2f4a59686eb32d5432"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "ec445b4f532a964784204815b83b1465e942709e8a6a07de99ca7053c991d8f0"
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "667677e65412e8abb90567127e7783806c0a55b90104aaba4361d27391eada51"
+    },
+    {
+      "path": "files/.gitignore.md",
+      "sha256": "b1822f922cbca4773efb72bada8efb7d1259771ba51d6e7768121c0e6847b402"
+    },
+    {
+      "path": "files/AGENTS.md.md",
+      "sha256": "a836804cada9357aee21e5d2429752fea3d2772c81d1163f35d202efa53d2463"
+    },
+    {
+      "path": "files/BUNDLE_MANIFEST.json.md",
+      "sha256": "2f577726f6cec16d770ac0d884a3ce2e6f22c6fb847a812ecc9c6ff1ece9304c"
+    },
+    {
+      "path": "files/README.md.md",
+      "sha256": "075a95aa08a43d4c7399183ef24ab53ab32b74298a3d64d0331c2b0963c13970"
+    },
+    {
+      "path": "files/adapters/README.md.md",
+      "sha256": "33a26464d4afcb77932836ce237f310869b03fe526f6faafadddd89dc6f5afd4"
+    },
+    {
+      "path": "files/adapters/anteroom.md.md",
+      "sha256": "7bc2a56992f786626df5581d8d80c0557e4555c172d26909dd2192c77039e79c"
+    },
+    {
+      "path": "files/adapters/claude.md.md",
+      "sha256": "8a1113228563f32e2e608a3a2d624c78e88de6d9a604479995381de998c23317"
+    },
+    {
+      "path": "files/adapters/codex.md.md",
+      "sha256": "4fbb9c5277b989b67e24e986c9fd3d72c4c06c162b283282ec3b0b8aa5786af7"
+    },
+    {
+      "path": "files/adapters/copilot.md.md",
+      "sha256": "fd18f9dd14c07e5e460c89c8c452f9952ab00fb7299939a6f29b2e3cf13961af"
+    },
+    {
+      "path": "files/dist/lpa-integration-starter-0.3.0.zip.md",
+      "sha256": "10e10765c85184d0436677b6c59361470162f8ba42ea146861a2845f6eae3374"
+    },
+    {
+      "path": "files/docs/IMPLEMENTATION.md.md",
+      "sha256": "75d3fc9afc7fd5af674bf046c9387f293374a3ee9b8f7cdb87d2e4a0b0faf0f4"
+    },
+    {
+      "path": "files/docs/MOCK_INTEGRATION.md.md",
+      "sha256": "3cd851726e587b683845eba33e72af116de7cc2283f6243e7f9af1bbd1117f8f"
+    },
+    {
+      "path": "files/docs/PRODUCT_GUIDE.md.md",
+      "sha256": "44ddff40394cd4136e0c71469cb8d9dccc5d2cb8dfc1f76151715a453cf46d14"
+    },
+    {
+      "path": "files/docs/RELEASE_VALIDATION.md.md",
+      "sha256": "09391976f54403fa03f4c8e7f861b3f8ef5e928638ba643e194f0d5894f99b1e"
+    },
+    {
+      "path": "files/examples/pilot/README.md.md",
+      "sha256": "80b01c37f4b07b16b8aee759de602c65d3f5bb7a9bcec9fa7267600814f5b332"
+    },
+    {
+      "path": "files/examples/pilot/application.json.md",
+      "sha256": "398630ba91b0383cd609993b88defb50bd0d92dd6ae4bc27ce77da15ad150b12"
+    },
+    {
+      "path": "files/examples/pilot/profile.json.md",
+      "sha256": "7dea933e79b19fd87756745564f774e6419af77579d7969ff53198c2acd50fd8"
+    },
+    {
+      "path": "files/examples/pilot/repository/app.py.md",
+      "sha256": "74d4ada1e561f5a6247f375b29523afad57ad80ae5810a7fba023551fe24dea4"
+    },
+    {
+      "path": "files/examples/pilot/repository/tests/test_drafts.py.md",
+      "sha256": "84146293c39fc5faa587f720864611c7498d03ab9d9d1eaae87b1f935e4f1dc6"
+    },
+    {
+      "path": "files/examples/responses/README.md.md",
+      "sha256": "9b6a2737e96725b2c40864f51c9580ae6fa1dfcfea58cb6da4c8cad9a73f7385"
+    },
+    {
+      "path": "files/examples/responses/completed.xml.md",
+      "sha256": "245fd1a5a336bf9c08986e8f1a1f7ea17af6413dfc04c66eddfe390a11c737fa"
+    },
+    {
+      "path": "files/examples/responses/partial-updated.xml.md",
+      "sha256": "b8efea3cf78f5a4ad7029ecfe51969f6ddead077ebe8fde7263c2b734f88e8ae"
+    },
+    {
+      "path": "files/examples/responses/partial.xml.md",
+      "sha256": "631a66b5c3cf34eda9dabcce95f49014b8d2ac1be948f880e508a4f58a713b91"
+    },
+    {
+      "path": "files/examples/responses/processing-error.xml.md",
+      "sha256": "5435b8f3b05f8af44974ba22a98c28bf5fd079db2eeae6289afbd8e0a88b14b7"
+    },
+    {
+      "path": "files/examples/responses/scenario.json.md",
+      "sha256": "ffa7b766452ae292078f3e8e12643ac639eb6a1e4fd09853db2a8046b9720927"
+    },
+    {
+      "path": "files/examples/synthetic/client.json.md",
+      "sha256": "f21a5d129838cdec25b846c2294de9bc8621ce3f242b42f7c90ca0a523baba59"
+    },
+    {
+      "path": "files/examples/synthetic/profile.json.md",
+      "sha256": "cafb1e7181f00cc6af6c1302704568d829e6979735bf6f12c329ffad445c261f"
+    },
+    {
+      "path": "files/kb/lpa_v6.1/catalog.json.md",
+      "sha256": "ad01770ed6ed8e6fb5245bf6a1d734ab0c6d39ae5de62f11aeab0293a6c38a02"
+    },
+    {
+      "path": "files/kb/lpa_v6.1/credit-vendors.json.md",
+      "sha256": "17a71a484653e9409185d5157011e6b9ced6410ca5e68c839dd72cccc81db1cd"
+    },
+    {
+      "path": "files/kb/lpa_v6.1/errors.json.md",
+      "sha256": "5e9bc4cd6f3e8794d2cd6c4a932f3841fa4b126f3cb73b7071ad817b806895f1"
+    },
+    {
+      "path": "files/kb/lpa_v6.1/rules.json.md",
+      "sha256": "0d97a93d5687f0d3f6e17e0d4241f0680d24494016f72873b8357d72a38259a2"
+    },
+    {
+      "path": "files/loan-product-advisor-v6.1.00-request-file-requirements/LPA v6.1 XML Request File Data Requirements_January_2026.xlsx.md",
+      "sha256": "fc2af713dc1a9b6fcf8df17a02be8e01f73cf3ec0d0986b96009ff22a76b998b"
+    },
+    {
+      "path": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/DU_ExtensionV3_4_GENERIC_EXT.xsd.md",
+      "sha256": "ce19726c1561968ccc53182c9bfe4a79fd2ce3b8034acc8dee14a70d2372ab36"
+    },
+    {
+      "path": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/LPA_ExtensionV3_4.xsd.md",
+      "sha256": "4fdb864c10ca258ce40e4c5b47714cfd7bf709632a9ea1921a846ef7e0d83b08"
+    },
+    {
+      "path": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/LPA_ExtensionV3_4_GRP.xsd.md",
+      "sha256": "7d5ab26f3bac6c5a2cedee68dda0bd39311edcb9050b841edc74f62a403efae5"
+    },
+    {
+      "path": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/ULAD_ExtensionV3_4.xsd.md",
+      "sha256": "a31265c692b3fe9c27bcb90df6cd3412edf34ddfa6fd174797e8377cfffe304d"
+    },
+    {
+      "path": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/ULAD_ExtensionV3_4_GRP.xsd.md",
+      "sha256": "37c098709cbe7077822bf6fc2e5592ee93d1b7159a8ef1bdb0372e2f70918857"
+    },
+    {
+      "path": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/request/GSE_Schema_WrapperV1_1.xsd.md",
+      "sha256": "25af8b0fc4d5dc1bcb860d93cc85da24b74a279e0de87558199ee1cfd7fd55f4"
+    },
+    {
+      "path": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/request/LPALoanAssessmentServiceRequest_v1.0.0.xsd.md",
+      "sha256": "0615b5f12afc1ab4a3efec2877f1b685bb563e9d62615ab30fb42cc102f600c0"
+    },
+    {
+      "path": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/mismo/MISMO_3.4.0_B324.xsd.md",
+      "sha256": "28bcb6c9c03774ce3458d0b26e918933fb990433207778e4f6519b6957344664"
+    },
+    {
+      "path": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/mismo/xlinkMISMOB324.xsd.md",
+      "sha256": "adc1d0a3f7894ae2ef71acbd204f765f264559318da8ea9970b7b71d947c0cd2"
+    },
+    {
+      "path": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/mismo/xml.xsd.md",
+      "sha256": "4d311a462db744ca5ee1cff9435e82610d21f60a1ebfa1f470222d9d3e6230e7"
+    },
+    {
+      "path": "files/lpa-project.json.md",
+      "sha256": "bbf876b110c84933b51f3baf9bad6d3c97540fdce0a9b02d5e35b70d380ff300"
+    },
+    {
+      "path": "files/lpa_tools/__init__.py.md",
+      "sha256": "9c1ed182479e4569a0df1bc86798f86b8ccd596a39bf215d6783f31834ee1f08"
+    },
+    {
+      "path": "files/lpa_tools/__main__.py.md",
+      "sha256": "2deb615fd83a427f294e7dec84e1c792e78a6e049b120f99c15b382e608d62a4"
+    },
+    {
+      "path": "files/lpa_tools/assistance.py.md",
+      "sha256": "02ad1196978abcf8f7ecaf81c44c8236dece59a9374f8319105dbbe95f61c1ae"
+    },
+    {
+      "path": "files/lpa_tools/catalog.py.md",
+      "sha256": "ef0f92505124065b121ae0857dcb8b06bc61e70a13468c6063ac680e5a3eff9f"
+    },
+    {
+      "path": "files/lpa_tools/cli.py.md",
+      "sha256": "068ec11de92b1d9dd978d252e70fa4ea930930f63cc458d37084194dbc0b57b9"
+    },
+    {
+      "path": "files/lpa_tools/client.py.md",
+      "sha256": "1f39fd2c9cec8e48ddc866a218c2d98804299a0859bea9f10b8c8b846cb9b490"
+    },
+    {
+      "path": "files/lpa_tools/codegen.py.md",
+      "sha256": "41a7314afe33451f7537b5e363a5ad335559ee21aa3b60445cfb3d70669e5f2f"
+    },
+    {
+      "path": "files/lpa_tools/common.py.md",
+      "sha256": "e6ea07659c1976e205ec66bf0c777b026546673a553b2fe06de638f47b99674d"
+    },
+    {
+      "path": "files/lpa_tools/discovery.py.md",
+      "sha256": "02b17363cb4b793e469c43d55c082d05f8d5f4bded3cfe5dddad01eb31c282cf"
+    },
+    {
+      "path": "files/lpa_tools/feedback.py.md",
+      "sha256": "99b45ba2ecf0fbb469c9a9a7054b8522235e08b1ae5660af2855aa93510ef1b5"
+    },
+    {
+      "path": "files/lpa_tools/handoff.py.md",
+      "sha256": "f8c5299994d34e512d8e3e4024c07e74f97acfc0d4a901f080b152d7886245f3"
+    },
+    {
+      "path": "files/lpa_tools/mapping.py.md",
+      "sha256": "4d7b20eeae509275106bd148ea80ceb6a49c2f435c9af0e5038dad12be29444f"
+    },
+    {
+      "path": "files/lpa_tools/mock_service.py.md",
+      "sha256": "96ed226a2bcfaa4b9fe6a8f77bd2a16643642a4d5cf422c657c07b56997ade8b"
+    },
+    {
+      "path": "files/lpa_tools/protocol.py.md",
+      "sha256": "d7b2a34d9045f75d2ee5e03a7c23283b8bc2cc7cfd6eeb12e114858930be74f7"
+    },
+    {
+      "path": "files/lpa_tools/repository.py.md",
+      "sha256": "6ced122299ec840ea8b0970848d3dd7164427fd64ebdeee221ad3347f99571f9"
+    },
+    {
+      "path": "files/lpa_tools/responses.py.md",
+      "sha256": "3885255d93929eff10d057ba3de23e95d4d823bd7971394189dc9891aad4912d"
+    },
+    {
+      "path": "files/lpa_tools/runtime.py.md",
+      "sha256": "263c29a94842e7d3d1bd5cdfae36f004bd6d99ee5a9a557dd75f76caeb16aed1"
+    },
+    {
+      "path": "files/lpa_tools/state.py.md",
+      "sha256": "6ddb93f07596e6a23f68c29b4f8d1f55dfcd3647d3c33db689bbedd6147dc978"
+    },
+    {
+      "path": "files/lpa_tools/templates/csharp-project.txt.md",
+      "sha256": "cbb19644e50b884112cb8c324f62c537264d06e5b83f835499fe8db62fd9cdbd"
+    },
+    {
+      "path": "files/lpa_tools/templates/csharp.txt.md",
+      "sha256": "1167a8c588a5ac6ee91e95d33e557858d73883baef1e3ffcab3b564354510702"
+    },
+    {
+      "path": "files/lpa_tools/templates/integration-python.txt.md",
+      "sha256": "bc74da247fe23d99560262753c707c2505af01a9e077b7a3d0c2a98a9819dd92"
+    },
+    {
+      "path": "files/lpa_tools/templates/java.txt.md",
+      "sha256": "9480b0842704cf880b8daae7f9969dad6ef5bbc5d9af2462fb2c1d5bfbc46446"
+    },
+    {
+      "path": "files/lpa_tools/templates/pilot-test.txt.md",
+      "sha256": "6cbdbca740dba3976ca2e29ef73719496e1a4f8341888ca524385d4ef95f4819"
+    },
+    {
+      "path": "files/lpa_tools/templates/python.txt.md",
+      "sha256": "7a9fadfd2b83e5f396e74e9356b50d521bd075310f07a6d8a4559022703b5ad4"
+    },
+    {
+      "path": "files/lpa_tools/transactions.py.md",
+      "sha256": "e3a262e9dc5aea1bc1595da3d4d79a66d804832f3141a29a30a3ccf917450b93"
+    },
+    {
+      "path": "files/lpa_tools/upgrade.py.md",
+      "sha256": "ae6abf96999b0570642f0a8177b9614271aaa8099bfb612c0f8441e142025c23"
+    },
+    {
+      "path": "files/lpa_tools/vendors.py.md",
+      "sha256": "8b3d0e29adb7795b8350d6bfcd871e405deab61ecb3d9f966a70087570de4759"
+    },
+    {
+      "path": "files/lpa_tools/workflows.py.md",
+      "sha256": "0e07faa943476c0f2e800b56ffb4e6b85e805ebcb7e5e75b841cef95ab893552"
+    },
+    {
+      "path": "files/lpa_tools/xml_tools.py.md",
+      "sha256": "6411e6133cfb21684d8e81fe122af5ae4b325908e4c433ed4806305b785ef5ee"
+    },
+    {
+      "path": "files/pyproject.toml.md",
+      "sha256": "fc597d0ab9c24354aee997e2bb9e2c240e95dfc4085e2684c59d5ff87d283172"
+    },
+    {
+      "path": "files/schemas/response_v6.1/lpa/common/LPA_ExtensionV3_4.xsd.md",
+      "sha256": "52dff87f2ce2fc22e0e4b1395943c43215a88735c7c1cc41885e249707c1e00a"
+    },
+    {
+      "path": "files/schemas/response_v6.1/lpa/common/LPA_ExtensionV3_4_GRP.xsd.md",
+      "sha256": "5c3985119d5b1b2fe7b8c6cf7a06bc1f4967fe3330ab26c0f6ae74b84dfdbb8c"
+    },
+    {
+      "path": "files/schemas/response_v6.1/lpa/common/ULAD_ExtensionV3_4.xsd.md",
+      "sha256": "60050942ed30c9b79cae7f6d5fe7f5b616af9be32aaee430db0f31ddfcddc24b"
+    },
+    {
+      "path": "files/schemas/response_v6.1/lpa/common/ULAD_ExtensionV3_4_GRP.xsd.md",
+      "sha256": "462d8e8ece2a303d8b33033bf0f87076502f6df23f8eaecde8d8af58d072eb2f"
+    },
+    {
+      "path": "files/schemas/response_v6.1/lpa/response/GSE_Schema_Wrapper_ResponseV1_1.xsd.md",
+      "sha256": "4cd3fbf06cd8b80641ff7998c19dc1733c1e09c9fd2bbcb60c87415f6d98ad43"
+    },
+    {
+      "path": "files/schemas/response_v6.1/lpa/response/LPALoanAssessmentServiceResponse_v1.0.0.xsd.md",
+      "sha256": "8e17d224b4eecaa3dc468b3bc4d65fa3963d4b088a2cd79aebba645826485d04"
+    },
+    {
+      "path": "files/schemas/response_v6.1/manifest.json.md",
+      "sha256": "edf770c6ea75749f3fbdf6ffb2f7198c7b1f012a254d08d5f0a13e7af6ab8e54"
+    },
+    {
+      "path": "files/schemas/response_v6.1/mismo/MISMO_3.4.0_B324.xsd.md",
+      "sha256": "3fe2b5517a9e1836e22352ecfc7bf43c7e0055e6aad74d7331ee07517c9c9b1b"
+    },
+    {
+      "path": "files/schemas/response_v6.1/mismo/xlinkMISMOB324.xsd.md",
+      "sha256": "863dd4163f1727a1493dcc1fed50294a5621ed2dc5fb6f550fff979e5b46d58a"
+    },
+    {
+      "path": "files/schemas/response_v6.1/mismo/xml.xsd.md",
+      "sha256": "e85d5b0ecea1a56d901325188cfe968861cbebb219127fa3dfc0dd5175b9bac7"
+    },
+    {
+      "path": "files/schemas/response_v6.1/reconstruction.json.md",
+      "sha256": "096221578e030ac2a35b6cf18f63952561c854e2180d6eb1eb672d09c418253c"
+    },
+    {
+      "path": "files/scripts/build_bundle.py.md",
+      "sha256": "14412791894193f08aa717347db6e9f14f8e4bde91259e746acd96a82004cf9a"
+    },
+    {
+      "path": "files/scripts/create_synthetic_example.py.md",
+      "sha256": "b8f8246e43b3c5270ac0e32a5d496952a1ddb7151c35eed9935c8dd4a11d0318"
+    },
+    {
+      "path": "files/skills/lpa-integrate/SKILL.md.md",
+      "sha256": "679f67e00399478512d1828d04e5964c25443eb21230d2d0d5bb82ca4b7a0755"
+    },
+    {
+      "path": "files/skills/lpa-integrate/agents/openai.yaml.md",
+      "sha256": "27fac5e04c5fb90abd3e4eb4ee523a95d8095655cfc0aacee0559d7dbccc76d8"
+    },
+    {
+      "path": "files/skills/lpa-integrate/references/application.md.md",
+      "sha256": "c2fa2266d26f686514e1a520cf3ca284a2411b411432a86ef11d4d76ebeb3f3e"
+    },
+    {
+      "path": "files/skills/lpa-integrate/references/responses.md.md",
+      "sha256": "2787f88c3b9bdfebcf8a1cdcd10baf6c85568018a6ddcec72ab40cccfdc05261"
+    },
+    {
+      "path": "files/skills/lpa-integrate/references/workflow.md.md",
+      "sha256": "d552ff5db0d49000d468056361660a2a71f1f8fd7f7784c34f576a1b96e6eb79"
+    },
+    {
+      "path": "files/tests/test_integration_runtime.py.md",
+      "sha256": "f35b7752c3ab9ee9355bff30ad31044790eeb8e166c598156b7487f3257b459e"
+    },
+    {
+      "path": "files/tests/test_product.py.md",
+      "sha256": "4564ca2b1dbf47c5e5756b7726a317d06be5f945db1667c74531a405e8dfadb1"
+    },
+    {
+      "path": "files/tests/test_responses.py.md",
+      "sha256": "d43c7563da362550339ab7ff17953b55931199ef095162ca8fbc355722cdaab9"
+    },
+    {
+      "path": "files/tests/test_toolkit.py.md",
+      "sha256": "38f39c008d5d5d7badd4fa527d5f9359e8131270c6eabdb8c85a8d7a5e211270"
+    }
+  ]
+}

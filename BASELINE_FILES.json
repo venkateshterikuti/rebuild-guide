@@ -1,0 +1,676 @@
+{
+  "guide_format": 1,
+  "product_version": "0.3.0",
+  "source_archive": "dist/lpa-integration-starter-0.3.0.zip",
+  "source_archive_sha256": "5c270edeff10ddd0341e092261d5a83828d332450984f9f284c2dbc7db044468",
+  "input_content_embedded": false,
+  "payload_file_count": 93,
+  "recipe_count": 95,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "e491d23b0657249bc04763f28497afe9b286d33380754d7c264a5cea5b0a65d4",
+      "bytes": 83,
+      "recipe": "files/.gitignore.md",
+      "role": "instructions / metadata"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "ff49951a89c6fe49eb1fa17ec41aa724858aeba84407b14a7eaf25972e1d8998",
+      "bytes": 1795,
+      "recipe": "files/AGENTS.md.md",
+      "role": "instructions / metadata"
+    },
+    {
+      "path": "README.md",
+      "sha256": "85775b556ef9fc9c731d0aaa41a76e78cb2e74b278175b8376c4d1048ac3af25",
+      "bytes": 7399,
+      "recipe": "files/README.md.md",
+      "role": "instructions / metadata"
+    },
+    {
+      "path": "adapters/README.md",
+      "sha256": "a060b7e58f047c2ba38d994858b6b9b84e854648119d70359e9f68c484f25df8",
+      "bytes": 635,
+      "recipe": "files/adapters/README.md.md",
+      "role": "agent development workflow"
+    },
+    {
+      "path": "adapters/anteroom.md",
+      "sha256": "acae90fa34a6f6838f0abd779114c627d63a52ce01184acec93834aefd9e8c61",
+      "bytes": 1902,
+      "recipe": "files/adapters/anteroom.md.md",
+      "role": "agent development workflow"
+    },
+    {
+      "path": "adapters/claude.md",
+      "sha256": "e1fdf3a00d6f692f91d69a4ad2a2e1acfb8215a9cbaafd3f54302c2830ba577b",
+      "bytes": 1905,
+      "recipe": "files/adapters/claude.md.md",
+      "role": "agent development workflow"
+    },
+    {
+      "path": "adapters/codex.md",
+      "sha256": "eeeb0c10fc58cc0bf14eb4e214b7b215a20d18a63353a00aab3d96f0d5398072",
+      "bytes": 1899,
+      "recipe": "files/adapters/codex.md.md",
+      "role": "agent development workflow"
+    },
+    {
+      "path": "adapters/copilot.md",
+      "sha256": "d646bb71cf7363faf25147ad138e05c07cc5dde234c1c3b465c35a276608f92e",
+      "bytes": 1908,
+      "recipe": "files/adapters/copilot.md.md",
+      "role": "agent development workflow"
+    },
+    {
+      "path": "docs/IMPLEMENTATION.md",
+      "sha256": "9e9db6d6de6eddd1882466591e79feded702cee14d707e5f3aee5bedfe4c9c48",
+      "bytes": 9321,
+      "recipe": "files/docs/IMPLEMENTATION.md.md",
+      "role": "instructions / metadata"
+    },
+    {
+      "path": "docs/MOCK_INTEGRATION.md",
+      "sha256": "dfee59d9cf212b071ada6562c95c5018c1720314b01471738f1e8577e90a12e1",
+      "bytes": 11861,
+      "recipe": "files/docs/MOCK_INTEGRATION.md.md",
+      "role": "instructions / metadata"
+    },
+    {
+      "path": "docs/PRODUCT_GUIDE.md",
+      "sha256": "5c40a4e84059c8d30fff784f7085c1e7374e47e5bb9a219f934169c399c3b559",
+      "bytes": 7323,
+      "recipe": "files/docs/PRODUCT_GUIDE.md.md",
+      "role": "instructions / metadata"
+    },
+    {
+      "path": "docs/RELEASE_VALIDATION.md",
+      "sha256": "8a689050668d009a140155de133deca548a1e9338598632ac7e72cfb7e6a167d",
+      "bytes": 3204,
+      "recipe": "files/docs/RELEASE_VALIDATION.md.md",
+      "role": "instructions / metadata"
+    },
+    {
+      "path": "examples/pilot/README.md",
+      "sha256": "5be05faf65d56f9961ebe9b83c639d5f04787ce36534858b9b95d9d377d8871a",
+      "bytes": 1113,
+      "recipe": "files/examples/pilot/README.md.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "examples/pilot/application.json",
+      "sha256": "2ebe950528c6440080a661817bb24000e7c75106a17881c1db5caa1ffa710ee2",
+      "bytes": 737,
+      "recipe": "files/examples/pilot/application.json.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "examples/pilot/profile.json",
+      "sha256": "573bb5bdd07d9e06d46fd1469b8ad9decd31263ad7e1ac75d132aee33b57f60c",
+      "bytes": 15797,
+      "recipe": "files/examples/pilot/profile.json.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "examples/pilot/repository/app.py",
+      "sha256": "953aec663013817b0f0c8508500a40f14986c7e5c0c8bba717eab292376bd863",
+      "bytes": 443,
+      "recipe": "files/examples/pilot/repository/app.py.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "examples/pilot/repository/tests/test_drafts.py",
+      "sha256": "9798df864d35cbadaaa72dbb2df84a174d4a13eb2a22027c3e8f33494e2a4920",
+      "bytes": 555,
+      "recipe": "files/examples/pilot/repository/tests/test_drafts.py.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "examples/responses/README.md",
+      "sha256": "00c2643e69785b40cec052b0d814609676f83ad8938bd704323ed5fc7d04cd81",
+      "bytes": 678,
+      "recipe": "files/examples/responses/README.md.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "examples/responses/completed.xml",
+      "sha256": "ba5f5afd1839df2380cd127d40853a3301ee51456dadd56942f24bff7c76c098",
+      "bytes": 2545,
+      "recipe": "files/examples/responses/completed.xml.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "examples/responses/partial-updated.xml",
+      "sha256": "7816a70750491d9e39c67e5157a66ad203510d2297d8a477eb143c3df83977a0",
+      "bytes": 2572,
+      "recipe": "files/examples/responses/partial-updated.xml.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "examples/responses/partial.xml",
+      "sha256": "ccdafb25625f13fceeb2bfc19c031de9a34421952313b418f59f4e758828de9a",
+      "bytes": 2572,
+      "recipe": "files/examples/responses/partial.xml.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "examples/responses/processing-error.xml",
+      "sha256": "3811cccf7c14b630f5992daf45c3286ef2b6b89d24adb051d5333fe0e79fca03",
+      "bytes": 2977,
+      "recipe": "files/examples/responses/processing-error.xml.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "examples/responses/scenario.json",
+      "sha256": "1a54924e89fac2fb80fbbdf0c8f82ef5663c26516b302adf0dc3b702d02b5e3b",
+      "bytes": 798,
+      "recipe": "files/examples/responses/scenario.json.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "examples/synthetic/client.json",
+      "sha256": "d9d6234c6a47ba2ad9031d02b9e0aaf29f2b75e7adc05f5a6e6df1a3ecd39ed3",
+      "bytes": 612,
+      "recipe": "files/examples/synthetic/client.json.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "examples/synthetic/profile.json",
+      "sha256": "e54672c613775efd2d6327d215941b1e736ada414dc6c9b08cf605f4a3b5f834",
+      "bytes": 9557,
+      "recipe": "files/examples/synthetic/profile.json.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "kb/lpa_v6.1/catalog.json",
+      "sha256": "13b1b007a39541a36ea52e869d2757b629950814bb16af9127825fea470757e6",
+      "bytes": 5256475,
+      "recipe": "files/kb/lpa_v6.1/catalog.json.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "kb/lpa_v6.1/credit-vendors.json",
+      "sha256": "7e037696aa2bdaabd773150b8b2f9fd128cafff9e1c7068f7471190b2d45334f",
+      "bytes": 14633,
+      "recipe": "files/kb/lpa_v6.1/credit-vendors.json.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "kb/lpa_v6.1/errors.json",
+      "sha256": "b7bf39eeeefa88e03155577560c5d9055530b6abb8b752fa06dcb6e677f9603a",
+      "bytes": 3978,
+      "recipe": "files/kb/lpa_v6.1/errors.json.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "kb/lpa_v6.1/rules.json",
+      "sha256": "f4984c4410e4e55a03b3a879dc85bc50e96b179a09c0620ad2da5d9c78bab767",
+      "bytes": 11706,
+      "recipe": "files/kb/lpa_v6.1/rules.json.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "loan-product-advisor-v6.1.00-request-file-requirements/LPA v6.1 XML Request File Data Requirements_January_2026.xlsx",
+      "sha256": "e2e808ec27351659f7d3c8f2b14097a1fb358a0e0e259233ac8d9216d51873e3",
+      "bytes": 486801,
+      "recipe": "files/loan-product-advisor-v6.1.00-request-file-requirements/LPA v6.1 XML Request File Data Requirements_January_2026.xlsx.md",
+      "role": "native source / catalog rebuild"
+    },
+    {
+      "path": "loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/DU_ExtensionV3_4_GENERIC_EXT.xsd",
+      "sha256": "43004021d794e9993f115dd9368af840ff4f558b2d519a975f61cdceeebbf9a7",
+      "bytes": 3360,
+      "recipe": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/DU_ExtensionV3_4_GENERIC_EXT.xsd.md",
+      "role": "runtime schema dependency"
+    },
+    {
+      "path": "loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/LPA_ExtensionV3_4.xsd",
+      "sha256": "13510e670dd8a1a8fd8f78bf5788a0219cc671924c3efeb01f612ab6a2dc44f1",
+      "bytes": 154108,
+      "recipe": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/LPA_ExtensionV3_4.xsd.md",
+      "role": "runtime schema dependency"
+    },
+    {
+      "path": "loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/LPA_ExtensionV3_4_GRP.xsd",
+      "sha256": "2c31e4d72a577531f9c5b1e6ba25efd51e03b1bad63dabb274028041bb2c160e",
+      "bytes": 6271,
+      "recipe": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/LPA_ExtensionV3_4_GRP.xsd.md",
+      "role": "runtime schema dependency"
+    },
+    {
+      "path": "loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/ULAD_ExtensionV3_4.xsd",
+      "sha256": "60b7c44b603f26c85fdcd6a485fd67986b5448cd6d62e8db4cca973f53d91cb6",
+      "bytes": 31791,
+      "recipe": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/ULAD_ExtensionV3_4.xsd.md",
+      "role": "runtime schema dependency"
+    },
+    {
+      "path": "loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/ULAD_ExtensionV3_4_GRP.xsd",
+      "sha256": "d65248a9af7812e1ec100d1abea0806c100cd2385e31425d5e4bc702c26e2bad",
+      "bytes": 2537,
+      "recipe": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/common/ULAD_ExtensionV3_4_GRP.xsd.md",
+      "role": "runtime schema dependency"
+    },
+    {
+      "path": "loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/request/GSE_Schema_WrapperV1_1.xsd",
+      "sha256": "c07e7d85e1721e67a832e52097a4d54f874c8c1f9b2f563666c4953da44e3fcb",
+      "bytes": 37725,
+      "recipe": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/request/GSE_Schema_WrapperV1_1.xsd.md",
+      "role": "runtime schema dependency"
+    },
+    {
+      "path": "loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/request/LPALoanAssessmentServiceRequest_v1.0.0.xsd",
+      "sha256": "e1fba7ed0cb60726de2dbcfb85526eb2657bcc5e73c1633e863ee641b94286b2",
+      "bytes": 1057,
+      "recipe": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/lpa/request/LPALoanAssessmentServiceRequest_v1.0.0.xsd.md",
+      "role": "runtime schema dependency"
+    },
+    {
+      "path": "loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/mismo/MISMO_3.4.0_B324.xsd",
+      "sha256": "2524bcb039fe81c9dbaa98d21550d6585970d29a124d5e51f2c79b97311d834d",
+      "bytes": 7023574,
+      "recipe": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/mismo/MISMO_3.4.0_B324.xsd.md",
+      "role": "runtime schema dependency"
+    },
+    {
+      "path": "loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/mismo/xlinkMISMOB324.xsd",
+      "sha256": "7d6e32a6ca558411b814c6b2b9cfb6bf28ec48511efe4f4e172b64e478e220f8",
+      "bytes": 16435,
+      "recipe": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/mismo/xlinkMISMOB324.xsd.md",
+      "role": "runtime schema dependency"
+    },
+    {
+      "path": "loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/mismo/xml.xsd",
+      "sha256": "523b263e297898f6557647352fea82bb42a148dcedf8ea1a968414743c9ebe54",
+      "bytes": 9167,
+      "recipe": "files/loan-product-advisor-v6.1.00-request-file-requirements/XSD_LPA_6.1.00_Dec 2025_Updated 012926/mismo/xml.xsd.md",
+      "role": "runtime schema dependency"
+    },
+    {
+      "path": "lpa-project.json",
+      "sha256": "bccc22d60c5db0e42c4f2214a8bf4a1bec6c761a02a78e38388a44c535c22aff",
+      "bytes": 753,
+      "recipe": "files/lpa-project.json.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "lpa_tools/__init__.py",
+      "sha256": "6968e805f8cc21f3e6f24e0ee14e37f67c260b614a9f4347c55a5eaf4d1acb87",
+      "bytes": 76,
+      "recipe": "files/lpa_tools/__init__.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48,
+      "recipe": "files/lpa_tools/__main__.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/assistance.py",
+      "sha256": "6b04976914bc0337008dcc59053bdd54e3de26b85f49cb651a1e3588e2d4b062",
+      "bytes": 4113,
+      "recipe": "files/lpa_tools/assistance.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/catalog.py",
+      "sha256": "838a04df40e60939b97e21d500813034c6d9f196018d4cf98690ec7cddf4c457",
+      "bytes": 6124,
+      "recipe": "files/lpa_tools/catalog.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/cli.py",
+      "sha256": "996de948c9a7439bb1c93e08cab7f33b8e3176672374c4aa2d1862b030389210",
+      "bytes": 15484,
+      "recipe": "files/lpa_tools/cli.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/client.py",
+      "sha256": "1ae69feb1431fc37ea9237276f973aabe6976fb308d8a20a1d9f2a72d0ee9066",
+      "bytes": 14148,
+      "recipe": "files/lpa_tools/client.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/codegen.py",
+      "sha256": "d46bde54f9a9ebd13badac54a71b57d912e8d4ef7ac2af2bac9f526bdda119e9",
+      "bytes": 3813,
+      "recipe": "files/lpa_tools/codegen.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/common.py",
+      "sha256": "eb909b7a89eb182dbd24cea9e8d08163dcbf3db164341f078ded237e3aa5fcac",
+      "bytes": 1657,
+      "recipe": "files/lpa_tools/common.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/discovery.py",
+      "sha256": "cd74b4a1182c16ebefc91a4a1fa0927bac12ee8c9714f9cc314519184c6d96de",
+      "bytes": 1162,
+      "recipe": "files/lpa_tools/discovery.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/feedback.py",
+      "sha256": "bb18402c5762c99f6ec7b7550de7b08d2d280a31889295b3681a89d921656519",
+      "bytes": 3344,
+      "recipe": "files/lpa_tools/feedback.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/handoff.py",
+      "sha256": "c90b719d24b9d4a07a703af6d12f1acd254b23254c4e592e056578708ef66993",
+      "bytes": 4853,
+      "recipe": "files/lpa_tools/handoff.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/mapping.py",
+      "sha256": "b25dc6c899d95885cc22052c6e05667725d4aa05150a5ffaaac45e71e30e7b2e",
+      "bytes": 8804,
+      "recipe": "files/lpa_tools/mapping.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/mock_service.py",
+      "sha256": "64c22b3088ce4257e27f5342c240ac8a9a8c2a42bcabc13e2a51f75cfd79f80a",
+      "bytes": 9966,
+      "recipe": "files/lpa_tools/mock_service.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/protocol.py",
+      "sha256": "d11599e311632bb81783562c032dbeafa48553549550f6595286171907734012",
+      "bytes": 1064,
+      "recipe": "files/lpa_tools/protocol.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/repository.py",
+      "sha256": "9c1672278899e46579c2fd3ef18f71d1983d3d752b2efa89fee38816b893d83e",
+      "bytes": 7755,
+      "recipe": "files/lpa_tools/repository.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/responses.py",
+      "sha256": "ca337bcfeee1f5197dd5c7ab3ac7e1704026295937b6821f8e3e23279ac87fde",
+      "bytes": 11522,
+      "recipe": "files/lpa_tools/responses.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/runtime.py",
+      "sha256": "c2873e39385fa635d8d0d188d56a2584897a2e5d20975ad54a26dc16e5f4d751",
+      "bytes": 1826,
+      "recipe": "files/lpa_tools/runtime.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/state.py",
+      "sha256": "b0dc10b9f50c8a851249403f67bb9876e736e4f4dd90ab99d877c317c8b9b1bd",
+      "bytes": 2029,
+      "recipe": "files/lpa_tools/state.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/templates/csharp-project.txt",
+      "sha256": "031da6a6f6d810b9f23ffe7818f3acefb7b0ff54b0eb8c6752735ad58d254904",
+      "bytes": 237,
+      "recipe": "files/lpa_tools/templates/csharp-project.txt.md",
+      "role": "generation templates"
+    },
+    {
+      "path": "lpa_tools/templates/csharp.txt",
+      "sha256": "3db031e6047cf000bdec908a0ff9db6cf64d6f1f7da6afe04f709f1549b965df",
+      "bytes": 1612,
+      "recipe": "files/lpa_tools/templates/csharp.txt.md",
+      "role": "generation templates"
+    },
+    {
+      "path": "lpa_tools/templates/integration-python.txt",
+      "sha256": "41519d8b67dbd853e66c923954df26ffebaf612e46e2625265d3938cf7c152ad",
+      "bytes": 1230,
+      "recipe": "files/lpa_tools/templates/integration-python.txt.md",
+      "role": "generation templates"
+    },
+    {
+      "path": "lpa_tools/templates/java.txt",
+      "sha256": "df72617bbf6377c33851d3379f5482315429a60822b5de762492c7be35dd5f80",
+      "bytes": 2150,
+      "recipe": "files/lpa_tools/templates/java.txt.md",
+      "role": "generation templates"
+    },
+    {
+      "path": "lpa_tools/templates/pilot-test.txt",
+      "sha256": "6a168713b83908de420bac8bb9df2f6ea69f3b6d356667929c1d3eefeda8d8b0",
+      "bytes": 2141,
+      "recipe": "files/lpa_tools/templates/pilot-test.txt.md",
+      "role": "generation templates"
+    },
+    {
+      "path": "lpa_tools/templates/python.txt",
+      "sha256": "14c3fbd183daf425ff214774c4cd06ee026829e1c0d18e460483fc39c7d574fe",
+      "bytes": 1571,
+      "recipe": "files/lpa_tools/templates/python.txt.md",
+      "role": "generation templates"
+    },
+    {
+      "path": "lpa_tools/transactions.py",
+      "sha256": "8ab8dfcd568a72b16a1b017ca5c3b0bc558e63dc419480ab5d3409a5c4957e57",
+      "bytes": 7072,
+      "recipe": "files/lpa_tools/transactions.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/upgrade.py",
+      "sha256": "abf8444b622265a2619b305b0bae1d5be895d6c571d6cb42cbeee1369cc02eed",
+      "bytes": 4166,
+      "recipe": "files/lpa_tools/upgrade.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/vendors.py",
+      "sha256": "a0180bd3b36099404a4fdba4ca2f904a8574ea594f5da9260922e591f7ca945e",
+      "bytes": 1192,
+      "recipe": "files/lpa_tools/vendors.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/workflows.py",
+      "sha256": "e11a41c09109346ea8b720588392a6b092b5acbbb71acc7f8ebbf4e1e0c50f92",
+      "bytes": 9106,
+      "recipe": "files/lpa_tools/workflows.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "lpa_tools/xml_tools.py",
+      "sha256": "cc14e4e63513b1198dbac749ad3b0bd219cee76b4752fda14467058683f513f2",
+      "bytes": 12617,
+      "recipe": "files/lpa_tools/xml_tools.py.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "3abe724af3c484e4ec219fad39b88a4af6d272bec4137a147210fe20be6da852",
+      "bytes": 468,
+      "recipe": "files/pyproject.toml.md",
+      "role": "runtime / installation"
+    },
+    {
+      "path": "schemas/response_v6.1/lpa/common/LPA_ExtensionV3_4.xsd",
+      "sha256": "13510e670dd8a1a8fd8f78bf5788a0219cc671924c3efeb01f612ab6a2dc44f1",
+      "bytes": 154108,
+      "recipe": "files/schemas/response_v6.1/lpa/common/LPA_ExtensionV3_4.xsd.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "schemas/response_v6.1/lpa/common/LPA_ExtensionV3_4_GRP.xsd",
+      "sha256": "2c31e4d72a577531f9c5b1e6ba25efd51e03b1bad63dabb274028041bb2c160e",
+      "bytes": 6271,
+      "recipe": "files/schemas/response_v6.1/lpa/common/LPA_ExtensionV3_4_GRP.xsd.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "schemas/response_v6.1/lpa/common/ULAD_ExtensionV3_4.xsd",
+      "sha256": "60b7c44b603f26c85fdcd6a485fd67986b5448cd6d62e8db4cca973f53d91cb6",
+      "bytes": 31791,
+      "recipe": "files/schemas/response_v6.1/lpa/common/ULAD_ExtensionV3_4.xsd.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "schemas/response_v6.1/lpa/common/ULAD_ExtensionV3_4_GRP.xsd",
+      "sha256": "d65248a9af7812e1ec100d1abea0806c100cd2385e31425d5e4bc702c26e2bad",
+      "bytes": 2537,
+      "recipe": "files/schemas/response_v6.1/lpa/common/ULAD_ExtensionV3_4_GRP.xsd.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "schemas/response_v6.1/lpa/response/GSE_Schema_Wrapper_ResponseV1_1.xsd",
+      "sha256": "2884a19fb44d48ce101bf5ed38278b787d8d40731a07168c035e50c343c8e2f0",
+      "bytes": 331677,
+      "recipe": "files/schemas/response_v6.1/lpa/response/GSE_Schema_Wrapper_ResponseV1_1.xsd.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "schemas/response_v6.1/lpa/response/LPALoanAssessmentServiceResponse_v1.0.0.xsd",
+      "sha256": "c970f98c53b63ea85bc65e541f7417e4b057d514729aa4e3cc1545eaf23afb2f",
+      "bytes": 1042,
+      "recipe": "files/schemas/response_v6.1/lpa/response/LPALoanAssessmentServiceResponse_v1.0.0.xsd.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "schemas/response_v6.1/manifest.json",
+      "sha256": "82a405628e5dae48eea3898a97be1cd05d1648cd59d841df5b1b4542ff88d083",
+      "bytes": 1500,
+      "recipe": "files/schemas/response_v6.1/manifest.json.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "schemas/response_v6.1/mismo/MISMO_3.4.0_B324.xsd",
+      "sha256": "2524bcb039fe81c9dbaa98d21550d6585970d29a124d5e51f2c79b97311d834d",
+      "bytes": 7023574,
+      "recipe": "files/schemas/response_v6.1/mismo/MISMO_3.4.0_B324.xsd.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "schemas/response_v6.1/mismo/xlinkMISMOB324.xsd",
+      "sha256": "7d6e32a6ca558411b814c6b2b9cfb6bf28ec48511efe4f4e172b64e478e220f8",
+      "bytes": 16435,
+      "recipe": "files/schemas/response_v6.1/mismo/xlinkMISMOB324.xsd.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "schemas/response_v6.1/mismo/xml.xsd",
+      "sha256": "523b263e297898f6557647352fea82bb42a148dcedf8ea1a968414743c9ebe54",
+      "bytes": 9167,
+      "recipe": "files/schemas/response_v6.1/mismo/xml.xsd.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "schemas/response_v6.1/reconstruction.json",
+      "sha256": "278a3ae38f5883444a69abf2865f2faa4f3b03e888351210ea429fd8bcc84230",
+      "bytes": 401813,
+      "recipe": "files/schemas/response_v6.1/reconstruction.json.md",
+      "role": "runtime references / provenance"
+    },
+    {
+      "path": "scripts/build_bundle.py",
+      "sha256": "af3b3854e3d977861ba9fe3a1957f4c35d6ccca9a5b05ff2c4103126b8c5e894",
+      "bytes": 2290,
+      "recipe": "files/scripts/build_bundle.py.md",
+      "role": "developer release tooling"
+    },
+    {
+      "path": "scripts/create_synthetic_example.py",
+      "sha256": "267b90f735d89640740166df87a3df16389740f5019495ad807da333b62e0b8f",
+      "bytes": 4105,
+      "recipe": "files/scripts/create_synthetic_example.py.md",
+      "role": "developer release tooling"
+    },
+    {
+      "path": "skills/lpa-integrate/SKILL.md",
+      "sha256": "a6024668cef3d9b928157489df0be82a3d21b51e4aa9641502db7dad02d6aa02",
+      "bytes": 5987,
+      "recipe": "files/skills/lpa-integrate/SKILL.md.md",
+      "role": "agent development workflow"
+    },
+    {
+      "path": "skills/lpa-integrate/agents/openai.yaml",
+      "sha256": "30aa052187a0a6f0490fa4a62cc73fd12a4fdd3e42f32afbda3ec745d12e17fe",
+      "bytes": 296,
+      "recipe": "files/skills/lpa-integrate/agents/openai.yaml.md",
+      "role": "agent development workflow"
+    },
+    {
+      "path": "skills/lpa-integrate/references/application.md",
+      "sha256": "6d07bbb729ac10dce7e10f6b14d94a71e3191ac9f3eaf735cbf29345dd51dbbd",
+      "bytes": 3506,
+      "recipe": "files/skills/lpa-integrate/references/application.md.md",
+      "role": "agent development workflow"
+    },
+    {
+      "path": "skills/lpa-integrate/references/responses.md",
+      "sha256": "679667bbbc1407d5850051fc3ef7b05fd47776c82d69c27672664a1dd39f01a6",
+      "bytes": 2926,
+      "recipe": "files/skills/lpa-integrate/references/responses.md.md",
+      "role": "agent development workflow"
+    },
+    {
+      "path": "skills/lpa-integrate/references/workflow.md",
+      "sha256": "677889fe565afb3d4901d968c2d4c1473b50b7d089f32f3d1e5810adb317f5e2",
+      "bytes": 9161,
+      "recipe": "files/skills/lpa-integrate/references/workflow.md.md",
+      "role": "agent development workflow"
+    },
+    {
+      "path": "tests/test_integration_runtime.py",
+      "sha256": "a44d1eb9619a1a63b30c3fe7e022a04003e1669d00d6c505ef32e94ab709d778",
+      "bytes": 16556,
+      "recipe": "files/tests/test_integration_runtime.py.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "tests/test_product.py",
+      "sha256": "0f215d33f7cbb0546c2ad732035d6e3fd394f10e81f055e0e088a54b0280110c",
+      "bytes": 16725,
+      "recipe": "files/tests/test_product.py.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "tests/test_responses.py",
+      "sha256": "616632d1879c26ab51a192e0ba48a1b35e521cce062ce2e61afbd8ab1ff4e27d",
+      "bytes": 7682,
+      "recipe": "files/tests/test_responses.py.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "tests/test_toolkit.py",
+      "sha256": "5355c2372bc6eda82d6102e6b62b381c9b0b575d87367bf75c246fc58a215cd7",
+      "bytes": 14739,
+      "recipe": "files/tests/test_toolkit.py.md",
+      "role": "demo / regression verification"
+    },
+    {
+      "path": "BUNDLE_MANIFEST.json",
+      "sha256": "95a21f930a0bd7ae0cc6aa757be1e24f088e8fb451403d8f2f6c27f77acc0c6e",
+      "bytes": 14417,
+      "recipe": "files/BUNDLE_MANIFEST.json.md",
+      "role": "generated release artifact"
+    },
+    {
+      "path": "dist/lpa-integration-starter-0.3.0.zip",
+      "sha256": "5c270edeff10ddd0341e092261d5a83828d332450984f9f284c2dbc7db044468",
+      "bytes": 2019904,
+      "recipe": "files/dist/lpa-integration-starter-0.3.0.zip.md",
+      "role": "generated release artifact"
+    }
+  ]
+}
